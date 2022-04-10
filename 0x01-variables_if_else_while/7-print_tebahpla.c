@@ -1,22 +1,17 @@
 #include <stdio.h>
 /**
- *main - Entry point
+ * main - Entry point
  *
- *Return: Always 0 (Success/Correct)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
-
 {
 char alphabet;
-
-for (alphabet = 122 ; alphabet >= 97; alphabet--)
+for (alphabet = 122; alphabet >= 97; alphabet--)
 {
 putchar(alphabet);
 }
-
-putchar('\');
+putchar('\n');
 
 return (0);
-
 }
