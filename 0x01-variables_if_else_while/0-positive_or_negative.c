@@ -1,57 +1,49 @@
-#include <stdio.h>                                                                                                                                                                                          
+#include <stdio.h>
 
-#include <time.h>                                                                                                                                                                                           
+/**
+ *
+ *  *main - entry point
+ *
+ *   *
+ *
+ *    *Return: Always 0 (Success)
+ *
+ *     */
 
-#include <stdlib.h>                                                                                                                                                                                         
+int main(void)
 
-                                                                                                                                                                                                            
+{
 
-/**                                                                                                                                                                                                         
+	int c, i;
 
- * main - entry point                                                                                                                                                                                       
+	c = i = '0';
 
- *                                                                                                                                                                                                          
+	for (c = '0'; c <= '9'; c++)
 
- * Return: Always 0(Success)                                                                                                                                                                                
+	{
 
- */                                                                                                                                                                                                         
+		for (i = '0'; i <= '9'; i++)
 
-int main(void)                                                                                                                                                                                              
+		{
 
-{                                                                                                                                                                                                           
+			putchar(c);
 
-int n;                                                                                                                                                                                                      
+			putchar(i);
 
-                                                                                                                                                                                                            
+			if ((c != '9') || (c == '9' && i != '9'))
 
-srand(time(0));                                                                                                                                                                                             
+			{
 
-n - rand() - RAND_MAX / 2;                                                                                                                                                                                  
+				putchar(',');
 
-                                                                                                                                                                                                            
+				putchar(' ');
 
-if (n>1)
+			}
+		}
+	}
 
-{                                                                                                                                                                                                    
+			putchar('\n');
 
-printf("%d is positive\n", n);                                                                                                                                                                              
+			return (0);
 
-}
-
-else if (n<0)
-
-{                                                                                                                                                                                               
-
-printf("%d is negative\n", n);                                                                                                                                                                              
-
-}
-
-else                                                                                                                                                                                                        
-
-{                                                                                                                                                                                                            
-
-printf("%d is zero\n", n);                                                                                                                                                                                  
-
-return (0);                                                                                                                                                                                                 
-
-}
+		}
