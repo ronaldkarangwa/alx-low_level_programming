@@ -1,26 +1,15 @@
 #include "main.h"
 
-
-
 /**
-
- * main - check the code.
-
+ * main - entry
  *
-
- * Return: Always 0.
-
+ * Return: Success
  */
 
 int main(void)
 
-
-
 {
-
 int r;
-
-
 
 r = _isalpha('H');
 
@@ -41,5 +30,4 @@ _putchar(r + '0');
 _putchar('\n');
 
 return (0);
-
 }
