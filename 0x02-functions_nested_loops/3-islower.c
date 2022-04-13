@@ -1,14 +1,18 @@
 #include "main.h"
 /**
- * _islower - tests whether a chrachter is
- * lowercase letter from the english alphabet
- * @c: charachter to test
- * Return: 1 if its a lowercase letter and 0 if it is nit
+ * _islower - returns 1 if lowercase alphabet
+ * and 0 otherwise
+ * @c: takes in charachater
+ * Return: 0 for Uppercase, 1 for lowercase
  */
-int_islower(int c);
+int _islower(int c)
+
 {
 if (c >= 'a' && c <= 'z')
+{
 return (1);
-else
-return (0);
 }
+else
+{
+return (0);
+}}
