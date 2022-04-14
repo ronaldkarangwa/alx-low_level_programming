@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * main - entry point
+ * main - entry
  *
- * Return: 0;
+ * ReturnL 0
  */
 
 int main(void)
 
 {
 
-print_numbers();
+print_most_numbers();
 
 return (0);
 
