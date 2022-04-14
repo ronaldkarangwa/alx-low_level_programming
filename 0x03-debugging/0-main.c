@@ -1,16 +1,10 @@
-#include "main.h"
-/**
- * main - check the code
- *
- * Return: Always 0
- */
-int main(void)
+#include <stdio.h>
 
 {
-int i;
-i = 0;
+	int i;
 
-positive_or_negative(i);
+	i = 98;
+	positive_or_negative(i);
 
-return (0);
+	return (0);
 }
