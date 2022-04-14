@@ -2,26 +2,18 @@
 
 #include <stdio.h>
 
-
-
 /**
+ * main - entry
  *
- *  * main - check the code
- *
- *   *
- *
- *    * Return: Always 0.
- *
- *     */
-
+ * Return: 0
+ */
 int main(void)
 
 {
+printf("%d\n", mul(98, 1024));
 
-	    printf("%d\n", mul(98, 1024));
+printf("%d\n", mul(-402, 4096));
 
-	        printf("%d\n", mul(-402, 4096));
-
-		    return (0);
+return (0);
 
 }
