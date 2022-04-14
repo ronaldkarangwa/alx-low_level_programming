@@ -1,17 +1,18 @@
 #include <stdio.h>
-
 /**
- *main - Entry point
+ * main - entry
  *
- *Return: Always 0 (Success/Correct)
+ * Return: 0
  */
 int main(void)
+
 {
-int i; 
-for (i = 0; i <= 9; ++i)
-putchar('0' + i);
-
-putchar ('\n');
-
+int n = 48;
+while (n <= 57)
+{
+putchar(n);
+n += 1;
+}
+printf("\n");
 return (0);
 }
